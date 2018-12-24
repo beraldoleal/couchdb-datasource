@@ -1,0 +1,35 @@
+{
+  "name": "couchdb",
+  "id": "couchdb-datasource",
+  "type": "datasource",
+
+  "partials": {
+    "config": "public/app/plugins/datasource/couchdb/partials/config.html"
+  },
+
+  "metrics": true,
+  "annotations": false,
+
+  "info": {
+    "description": "Couchdb Data Source plugin",
+    "author": {
+      "name": "Beraldo Leal",
+      "url": "https://github.com/beraldoleal/"
+    },
+    "logos": {
+      "small": "img/couchdb_logo.svg",
+      "large": "img/couchdb_logo.svg"
+    },
+    "links": [
+      {"name": "GitHub", "url": "https://github.com/beraldoleal/couchdb-datasource"},
+      {"name": "MIT License", "url": "https://github.com/beraldoleal/couchdb-datasource/blob/master/LICENSE"}
+    ],
+    "version": "1.0.0",
+    "updated": "2018-12-24"
+  },
+
+  "dependencies": {
+    "grafanaVersion": "3.x.x",
+    "plugins": [ ]
+  }
+}
